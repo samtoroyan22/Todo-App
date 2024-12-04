@@ -6,23 +6,14 @@ Todo App is a simple application for managing a list of tasks. It allows the use
 
 ## Функционал (Features)
 
-- Добавление новых задач.
-- Удаление выбранной задачи.
-- Редактирование выбранноый задачи.
-- Отметка задачи как выполненной.
-- Удаление всех выполненных задач.
-- Полная очистка списка задач.
-- Отображение сообщений для пустого списка.
-- Отображение количеств выполненных задач.
-
-- Add new tasks.
-- Deleting a selected task.
-- Editing a selected task.
-- Marking a task as completed.
-- Deleting all completed tasks.
-- Completely clearing the task list.
-- Display messages for an empty list.
-- Displaying the number of completed tasks.
+- Добавление новых задач (Add new tasks).
+- Удаление выбранной задачи (Deleting a selected task).
+- Редактирование выбранноый задачи (Editing a selected task).
+- Отметка задачи как выполненной (Marking a task as completed).
+- Удаление всех выполненных задач (Deleting all completed tasks).
+- Полная очистка списка задач (Completely clearing the task list).
+- Отображение сообщений для пустого списка (Display messages for an empty list).
+- Отображение количеств выполненных задач (Displaying the number of completed tasks).
 
 ## Скриншоты (Screenshots)
 
@@ -32,18 +23,14 @@ Todo App is a simple application for managing a list of tasks. It allows the use
 
 ## Используемые технологии (Used technologies)
 
-- **React.js** — для создания пользовательского интерфейса.
-- **HTML5 и CSS3** — для стилизации и разметки.
-- **JavaScript (ES6+)** — для логики приложения.
-
-- **React.js** - for creating user interfaces.
-- **HTML5 and CSS3** - for styling and markup.
-- **JavaScript (ES6+)** - for application logic.
+- **React.js** — для создания пользовательского интерфейса (for creating user interfaces).
+- **HTML5 и CSS3** — для стилизации и разметки (for styling and markup).
+- **JavaScript (ES6+)** — для логики приложения (for application logic).
 
 ## Установка и запуск (Installation and startup)
 
 1. **Клонируйте репозиторий (Clone the repository)**:
-   git clone https://github.com/ваш_логин/todo-app.git
+   git clone https://github.com/your-login/todo-app.git
 2. **Перейдите в папку проекта (Go to the project folder)**:
    cd todo-app
 3. **Установите зависимости (Install the dependencies)**:
