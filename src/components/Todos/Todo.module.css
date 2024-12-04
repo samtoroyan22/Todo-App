@@ -1,0 +1,81 @@
+.todo {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 1px #47395b solid;
+  color: #112d49;
+  background-color: #fbfef9;
+  user-select: none;
+}
+
+.todoText {
+  width: 100%;
+  text-align: left;
+  cursor: text;
+}
+
+.todoIcon {
+  font-size: 1.8rem;
+  margin-right: 10px;
+  color: rgb(83, 0, 128);
+}
+
+.todoIconCheck,
+.todoIconDel,
+.editIcon {
+  font-size: 1.8rem;
+  margin-left: 10px;
+  color: rgb(83, 0, 128);
+  transition: all 0.5s ease 0s;
+}
+
+.editIcon {
+  font-size: 1.5rem;
+}
+
+.todoIconCheck:hover,
+.todo.completedTodo .todoIconCheck:hover {
+  color: rgb(1, 208, 49);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.todoIconDel:hover,
+.todo.completedTodo .todoIconDel:hover {
+  color: rgb(255, 0, 0);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.editIcon:hover,
+.todo.completedTodo .editIcon:hover {
+  color: rgb(255, 196, 0);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.completedTodo {
+  background-color: unset;
+  border: 1px solid;
+  border-color: gray;
+  color: gray;
+}
+
+.todo.completedTodo .todoIcon,
+.todo.completedTodo .todoIconCheck,
+.todo.completedTodo .todoIconDel,
+.todo.completedTodo .editIcon {
+  color: gray;
+}
+
+.editInput {
+  width: 100%;
+  padding: 1px 10px;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.624);
+  border-radius: 5px;
+}

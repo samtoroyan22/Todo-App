@@ -1,0 +1,57 @@
+.button {
+  height: 50px;
+  cursor: pointer;
+  background-color: rgba(179, 39, 255, 0.532);
+  color: aliceblue;
+  font-size: 1.5rem;
+  border-radius: 0px 5px 5px 0px;
+  transition: all 0.4s ease 0s;
+  padding: 10px 15px;
+  border: none;
+}
+
+.buttonActions {
+  height: 50px;
+  cursor: pointer;
+  background-color: rgba(179, 39, 255, 0.532);
+  color: aliceblue;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  transition: all 0.4s ease 0s;
+  padding: 12px 15px;
+  margin: 10px 10px 20px 10px;
+  border: none;
+}
+
+.saveButton {
+  padding: 5px 15px;
+  font-size: 1.2rem;
+  background-color: #8030b2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease 0s;
+}
+
+.button:hover,
+.buttonActions:hover {
+  background-color: rgba(166, 0, 255, 0.354);
+}
+
+.saveButton:hover {
+  background-color: rgb(98, 0, 150);
+}
+
+.buttonActionsButtonDisabled:disabled {
+  height: 50px;
+  cursor: no-drop;
+  background-color: rgba(166, 0, 255, 0.354);
+  color: rgb(156, 156, 156);
+  font-size: 1.5rem;
+  border-radius: 5px;
+  transition: all 0.4s ease 0s;
+  padding: 12px 15px;
+  margin: 10px 10px;
+  border: none;
+}
